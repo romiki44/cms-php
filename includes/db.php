@@ -11,7 +11,7 @@ foreach($db as $key=>$value) {
 
 $connection=mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 if($connection) {
-  echo 'conected to db...';
+  //echo 'conected to db...';
 }
 
 ?>
